@@ -1,0 +1,54 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+
+
+/* telefono */
+@media (max-width: 767px){
+
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    /* .movil{
+        display: none;
+    } */
+
+
+}
+
+/* tablet */
+@media (min-width: 767px) and (max-width:990px){
+
+
+    .desktop{
+        display: none;
+    }
+    /* .tablet{
+        display: none;
+    } */
+    .movil{
+        display: none;
+    }
+
+}
+
+
+/* escritorio */
+@media (min-width: 991px){
+
+
+    /* .desktop{
+        display: none;
+    } */
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+
+}
