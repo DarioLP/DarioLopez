@@ -1,9 +1,3 @@
-body{
-	font-family: arial, helvetica;
-	background: #e8e8e8;
-    margin: 0%;
-}
-
 /*menu*/
 .menu{
 	list-style: none;
@@ -26,7 +20,63 @@ body{
 }
 .menu li a:hover{background: #696969;}
 
+
+body{
+	font-family: arial, helvetica;
+	background: #e8e8e8;
+    margin: 0%;
+}
+
+
 hr{
     width: 85%;
     color: black;
 }
+
+/*primer cuadro*/
+
+.centerdiv{
+
+	display: flex;
+	justify-content: center;
+	/* text-align: center; */
+	
+}
+
+.container {
+	overflow: hidden;
+	width: 1000px;
+	/* size: 100%; */
+	/* padding-top: 50px; */
+	/* padding-bottom: 25px; */
+	background-color: green;
+}
+  
+  .container p {
+	/* width: calc(100% - 300px); */
+	/* padding-top: 70px; */
+	float: left;
+	color: black;
+	width: 60%;
+	top: 30%;
+	position: relative;
+font-size: 20px;
+margin-left: 50px;
+  }
+  
+  .container img {
+	 display: flex; 
+  }
+
+  .hrvertical{
+	
+		border-left: 6px solid lightgray;
+		height: 200px;
+		position: absolute;
+		left: 60%;
+		/* right: 40%; */
+		/* margin-left: -3px; */
+		top: 90px;
+		
+	  }
+  

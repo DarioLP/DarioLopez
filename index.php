@@ -8,7 +8,7 @@
     <title>Darío López</title>
 
     <ul class="menu">
-        <label>DARÍO ANTONIO LÓPEZ POVEDA</label>
+        <!-- <label>DARÍO ANTONIO LÓPEZ POVEDA</label> -->
 			<li><a href="#">Inicio</a></li>
 			<li><a href="#">Proyectos</a></li>
 			<li><a href="#">Hoja de vida</a></li>
@@ -18,12 +18,21 @@
 </head>
 <body>
 
-<div>
-    <p>
-        Hola soy Darío López, desarrollador de software en formación.<br>
+<div class="centerdiv">
+
+<div class="container">
+    <p>    Hola soy Darío López, desarrollador de software en formación.<br>
         También soy creador de Adrem Indie Lab, un mini laboratorio dedicado al desarrollo de minijuegos para dispositivos móviles. 
+        
     </p>
+    <div class="hrvertical"></div>  
+    <img id="cash" src="1.png" width="200">
+      
+</div>  
+
 </div>
+
+
 <hr>
 </body>
 </html>
