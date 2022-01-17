@@ -75,6 +75,7 @@ hr{
 
   .gameimg{
 	  width: 260px;
+	  height: 260px;
 	  border-radius: 20px;
 	  padding: 10px;
 	  display: inline-block;
@@ -88,7 +89,7 @@ hr{
 
 .button-none-border{
 	border: 0;
-background-color: rgba(211, 211, 211, 0);
+	background-color: rgba(211, 211, 211, 0);
 }
 
 
@@ -115,6 +116,47 @@ background-color: rgba(211, 211, 211, 0);
 	top:80px;
 }
 
-   .img-text:hover .info {
+.img-text:hover .info {
 	display: block;
-	}
+}
+
+
+/* articulos */
+
+.art-frame{
+	background-color: lightgrey;
+	width: 360px;
+	height: 320px;
+	border-radius: 10px;
+	margin: 10px;
+	display: block;
+	margin: 20px;
+}
+
+.article-cover{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 360px;
+	size: 20px;	
+}
+
+.art-frame label{
+	margin: 10px;
+	text-align: justify;
+	display: block;
+}
+
+.button-article{
+	border: 0;
+	background-color: rgba(211, 211, 211, 0);
+	
+}
+.button-cv{
+	width: 200px;
+	height: 50px;
+	background-color: gray;
+	border: 0;
+	border-radius: 10px;
+	font-size: 15px;
+	color: white;
+}
