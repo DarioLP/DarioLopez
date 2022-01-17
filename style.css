@@ -65,3 +65,56 @@ hr{
 	 display: flex;
 	 padding-left: 30px; 
   }
+
+  .tittlesection{
+	  font-size: 25px;
+	  display: block;
+	  text-align: center;
+  }
+
+
+  .gameimg{
+	  width: 260px;
+	  border-radius: 20px;
+	  padding: 10px;
+	  display: inline-block;
+  }
+
+  .button-none-border:hover{
+	  transform: scale(1.1);
+	  transition: 0.3s;
+  }
+
+
+.button-none-border{
+	border: 0;
+background-color: rgba(211, 211, 211, 0);
+}
+
+
+.info {
+	display: none;
+	position: absolute;
+	bottom: 14px;
+	left: 16px;
+	width: 260px;
+	height: 260px;
+	color: white;
+	filter:none;
+	font-size: 20px; 
+	background-color: rgba(0, 0, 0, 0.438);
+	border-radius: 10px;
+	
+}
+
+
+.info p {
+	width: 260px;
+	height: 50px;
+	position: absolute;
+	top:80px;
+}
+
+   .img-text:hover .info {
+	display: block;
+	}
