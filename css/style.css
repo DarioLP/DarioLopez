@@ -151,6 +151,9 @@ hr{
 	background-color: rgba(211, 211, 211, 0);
 	
 }
+
+
+/* curriculum */
 .button-cv{
 	width: 200px;
 	height: 50px;
@@ -159,4 +162,23 @@ hr{
 	border-radius: 10px;
 	font-size: 15px;
 	color: white;
+}
+
+.button-cv label{
+	margin-left: 10px;
+}
+
+
+
+/* contact */
+
+.button-contact{
+	width: 50px;
+	height: 50px;
+	background-color: gray;
+	border: 0;
+	border-radius: 50px;
+	/* font-size: 15px; */
+	color: white;
+	margin: 10px;
 }
