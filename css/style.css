@@ -7,6 +7,7 @@
 	max-width: auto;
 	margin: auto;
     text-align: right;
+	position: fixed;
 }
 .menu li a{
 	text-decoration: none;
@@ -70,6 +71,7 @@ hr{
 	  font-size: 25px;
 	  display: block;
 	  text-align: center;
+	  margin-top: 30px;
   }
 
 
@@ -162,6 +164,7 @@ hr{
 	border-radius: 10px;
 	font-size: 15px;
 	color: white;
+	margin-bottom: 30px;
 }
 
 .button-cv label{
@@ -178,7 +181,19 @@ hr{
 	background-color: gray;
 	border: 0;
 	border-radius: 50px;
-	/* font-size: 15px; */
 	color: white;
-	margin: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+
+footer{
+	background-color: gray;
+	padding: 20px;
+color: white;
+text-align: center;
+}
+footer svg{
+	margin-right: 5px;
 }
